@@ -5,15 +5,17 @@ body {
 }
 
 h1 {
-  color: rgba(33, 33, 33, 0.863);
-  font-size: 30px;
-  font-weight: 100;
-  line-height: 28px;
+  color: rgb(248, 234, 235);
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 30px;
   margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgb(192, 108, 132), 0 0 15px rgb(246, 114, 128), 0 0 3px rgb(177, 82, 92);
 }
 
 footer {
-  font-size: 12px;
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 ul {
@@ -23,9 +25,9 @@ ul {
 
 li {
   color: rgba(33, 33, 33, 0.863);
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 19px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
   list-style: none;
   margin: 0;
   padding: 0px;
@@ -34,30 +36,9 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-.weather-app-wrapper {
-  margin: 30px auto;
-  max-width: 600px;
-}
-.weather-app {
-  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
-  border: 1px solid #dadde1;
-  border-radius: 5px;
-  box-shadow: 5px 5px 10px 2px #dadde1;
-  padding: 20px;
-  margin-bottom: 15px;
-}
-.overview {
-  margin-bottom: 20px;
-}
 
-.weather-temperature img {
-  float: left;
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
-}
 .weather-temperature strong {
-  color: rgba(33, 33, 33, 0.863);
+  color: rgb(192, 108, 132);
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -86,9 +67,33 @@ li:first-letter {
   text-align: center;
 }
 
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 600px;
+}
+.weather-app {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(248, 177, 149, 0.637));
+  border: 2px solid rgba(108, 91, 123, 0.753);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 2px #dadde1;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  float: left;
+  margin-right: 5px;
+  height: 70px;
+  width: 70px;
+}
+
 .weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.8;
+  font-size: 20px;
+  opacity: 0.9;
+  font-weight: 400;
 }
 
 .weather-forecast-temperatures {
