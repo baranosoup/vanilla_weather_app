@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
+
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 h1 {
